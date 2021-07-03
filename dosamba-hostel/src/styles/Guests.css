@@ -1,0 +1,30 @@
+.rooms {
+  display: flex;
+  list-style: none;
+}
+
+.rooms li {
+  margin: 10px;
+  font-size: 16px;
+
+}
+
+.hr {
+  width: 100%;
+  height: 10px;
+  background-color: #f3ab0e;
+}
+
+button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(241, 216, 160);
+}
+
+.bed {
+  font-size: 26px;
+}
