@@ -1,5 +1,6 @@
 .rooms {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -27,4 +28,8 @@ button:hover {
 
 .bed {
   font-size: 26px;
+}
+
+.actives {
+  background-color: rgb(241, 216, 160);
 }

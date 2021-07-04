@@ -1,12 +1,12 @@
 import React, {useContext} from 'react'
 import LogoCompleta from '../images/LogoCompleta.png'
 import { Link } from 'react-router-dom'
-import LoginContext from '../contexts/LoginContext'
+import Context from '../contexts/Context'
 import '../styles/Login.css'
 
 export default function Login() {
 
-  const {user, setUser} = useContext(LoginContext)
+  const {user, setUser} = useContext(Context)
   
   const handleChange = ({ target }) => {
     setUser({ ...user, [target.name]: target.value });

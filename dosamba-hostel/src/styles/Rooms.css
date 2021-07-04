@@ -1,0 +1,27 @@
+.guests-card {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+  background-color: #f5ce79;
+}
+
+.guest-card {
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guest-card:hover {
+  background-color: cornflowerblue;
+}
+
+.guest-card img{
+  width: 300px;
+  max-height: 400px;
+}

@@ -1,6 +1,6 @@
 import { useState } from "react";
 // import React, {useState, useEffect} from 'react'
-import LoginContext from "./LoginContext";
+import Context from "./Context";
 
 
 function HostelProvider({children}) {
@@ -11,9 +11,9 @@ function HostelProvider({children}) {
 
   const context = { user, setUser}
   return (
-    <LoginContext.Provider value={ context }>
+    <Context.Provider value={ context }>
       {children}
-    </LoginContext.Provider>
+    </Context.Provider>
   )
 }
 

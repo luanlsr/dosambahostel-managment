@@ -1,66 +1,91 @@
+import chicoBuarque from '../assets/images/chicoBuarque.jpg'
+import noelRosa from '../assets/images/noelRosa.jpg'
+import jovelina from '../assets/images/jovelina.jpg'
+import martinho from '../assets/images/martinho.jpg'
+import beth from '../assets/images/beth.jpg'
+import joao from '../assets/images/joao.jpg'
+import almir from '../assets/images/almir.jpg'
+import cartola from '../assets/images/cartola.jpg'
+import paulinho from '../assets/images/paulinho.jpg'
+
+// HOSPEDES
+import alex from '../assets/images/hAlex.jpeg'
+import matheus from '../assets/images/hMatheus.jpeg'
+import marcelo from '../assets/images/hMarcelo.jpeg'
+import adelson from '../assets/images/hAdelson.jpeg'
+import hiago from '../assets/images/hHiago.jpeg'
+import marceloAu from '../assets/images/hMarceloAu.jpeg'
+import sylvio from '../assets/images/hSylvio.jpeg'
+import fabio from '../assets/images/hFabio.jpeg'
+
+
+
 export const rooms = [
   {
     id: 1,
     name: 'Chico Buarque',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
-        name: 'Fulano',
-        lastName: 'da Silva',
-        email: 'fulano@gmailmail.com',
-        DDD: 21,
-        phoneNumber: 970106538,
-        birthYear: 1991,
-        birthMounth: 8,
-        birthDay: 12,
+        name: 'Alexsandro',
+        lastName: 'Moraes da Rocha',
+        email: 'alexmoraes31@gmail.com',
+        DDD: 11,
+        phoneNumber: 911319252,
+        birthYear: 1980,
+        birthMounth: 10,
+        birthDay: 1,
         genre: 'Masculino',
         country: 'Brasil',
-        state: 'Rio de Janeiro',
-        city: 'Nilópolis',
+        state: 'São Paulo',
+        city: 'São Paulo',
         docType: 'Identidade',
-        docNumber: 210527800,
+        docNumber: 455515542,
         expYear: 2025, 
+        photo: alex,
       },
-      two: {
+      {
         id: 2,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
-        email: 'luan.ramalhosilva@gmail.com',
-        DDD: 21,
-        phoneNumber: 970106538,
-        birthYear: 1991,
-        birthMounth: 8,
-        birthDay: 12,
+        name: 'Sylvio',
+        lastName: 'dos Santos Neto',
+        email: 'sylviosnnts@gmail.com',
+        DDD: 11,
+        phoneNumber: 9930543044,
+        birthYear: 1984,
+        birthMounth: 9,
+        birthDay: 9,
         genre: 'Masculino',
         country: 'Brasil',
-        state: 'Rio de Janeiro',
-        city: 'Nilópolis',
+        state: 'São Paulo',
+        city: 'São Paul',
         docType: 'Identidade',
-        docNumber: 210527800,
-        expYear: 2025, 
+        docNumber: 401378652,
+        expYear: 2025,
+        photo: sylvio,
       },
-      three: {
+      {
         id: 3,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
-        email: 'luan.ramalhosilva@gmail.com',
-        DDD: 21,
-        phoneNumber: 970106538,
-        birthYear: 1991,
-        birthMounth: 8,
-        birthDay: 12,
+        name: 'Adelson',
+        lastName: 'Gonçalves de Menezes',
+        email: 'adelsonmenezes36@gmail.com',
+        DDD: 11,
+        phoneNumber: 961853696,
+        birthYear: 1983,
+        birthMounth: 5,
+        birthDay: 25,
         genre: 'Masculino',
         country: 'Brasil',
-        state: 'Rio de Janeiro',
-        city: 'Nilópolis',
+        state: 'São Paulo',
+        city: 'São Paulo',
         docType: 'Identidade',
-        docNumber: 210527800,
-        expYear: 2025, 
+        docNumber: 37238982,
+        expYear: 2025,
+        photo: adelson,
       },
-      four: {
+      {
         id: 4,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
+        name: 'Chico',
+        lastName: 'Buarque de Holanda',
         email: 'luan.ramalhosilva@gmail.com',
         DDD: 21,
         phoneNumber: 970106538,
@@ -73,19 +98,20 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: chicoBuarque,
       },
-    }
+    ]
   },
   {
     id: 2,
     name: 'Jovelina Pérola Negra',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
         name: 'Fulano',
         lastName: 'da Silva',
-        email: 'fulano@gmailmail.com',
+        email: 'fulano@gmail.com',
         DDD: 21,
         phoneNumber: 970106538,
         birthYear: 1991,
@@ -97,9 +123,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: jovelina,
       },
-      two: {
+      {
         id: 2,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -115,9 +142,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: jovelina,
       },
-      three: {
+      {
         id: 3,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -133,9 +161,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: jovelina,
       },
-      four: {
+      {
         id: 4,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -151,36 +180,38 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: jovelina,
       },
-    }
+    ]
   },
   {
     id: 3,
     name: 'Noel Rosa',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
-        name: 'Fulano',
-        lastName: 'da Silva',
-        email: 'fulano@gmailmail.com',
-        DDD: 21,
-        phoneNumber: 970106538,
-        birthYear: 1991,
-        birthMounth: 8,
-        birthDay: 12,
+        name: 'Marcello',
+        lastName: 'Van Moorsel',
+        email: 'marcello.moorsel@gmail.com',
+        DDD: 11,
+        phoneNumber: 999676370,
+        birthYear: 1994,
+        birthMounth: 9,
+        birthDay: 22,
         genre: 'Masculino',
         country: 'Brasil',
-        state: 'Rio de Janeiro',
-        city: 'Nilópolis',
+        state: 'São Paulo',
+        city: 'São Paulo',
         docType: 'Identidade',
-        docNumber: 210527800,
-        expYear: 2025, 
+        docNumber: 5800573113,
+        expYear: 2025,
+        photo: marcelo ? marcelo : noelRosa,
       },
-      two: {
+      {
         id: 2,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
+        name: 'Noel',
+        lastName: 'Rosa',
         email: 'luan.ramalhosilva@gmail.com',
         DDD: 21,
         phoneNumber: 970106538,
@@ -193,12 +224,13 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: noelRosa,
       },
-      three: {
+      {
         id: 3,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
+        name: 'Noel',
+        lastName: 'Rosa',
         email: 'luan.ramalhosilva@gmail.com',
         DDD: 21,
         phoneNumber: 970106538,
@@ -211,12 +243,13 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: noelRosa,
       },
-      four: {
+      {
         id: 4,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
+        name: 'Noel',
+        lastName: 'Rosa',
         email: 'luan.ramalhosilva@gmail.com',
         DDD: 21,
         phoneNumber: 970106538,
@@ -229,72 +262,95 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: noelRosa,
       },
-    }
+    ]
   },
   {
     id: 4,
     name: 'Martinho da Vila',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
-        name: 'Fulano',
-        lastName: 'da Silva',
-        email: 'fulano@gmailmail.com',
-        DDD: 21,
-        phoneNumber: 970106538,
-        birthYear: 1991,
-        birthMounth: 8,
-        birthDay: 12,
+        name: 'Fábio',
+        lastName: 'Teodoro',
+        email: 'teodorofabio31@gmail.com',
+        DDD: 11,
+        phoneNumber: 952431452,
+        birthYear: 1984,
+        birthMounth: 2,
+        birthDay: 16,
         genre: 'Masculino',
         country: 'Brasil',
-        state: 'Rio de Janeiro',
-        city: 'Nilópolis',
+        state: 'São Paulo',
+        city: 'São Paulo',
         docType: 'Identidade',
-        docNumber: 210527800,
-        expYear: 2025, 
+        docNumber: 6968396304,
+        expYear: 2025,
+        photo: fabio,
       },
-      two: {
+      {
         id: 2,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
-        email: 'luan.ramalhosilva@gmail.com',
-        DDD: 21,
-        phoneNumber: 970106538,
-        birthYear: 1991,
-        birthMounth: 8,
-        birthDay: 12,
+        name: 'Hiago',
+        lastName: 'Luan de Lima',
+        email: 'hiagoluan_lima@hotmail.com',
+        DDD: 11,
+        phoneNumber: 971216430,
+        birthYear: 1992,
+        birthMounth: 11,
+        birthDay: 6,
         genre: 'Masculino',
         country: 'Brasil',
-        state: 'Rio de Janeiro',
-        city: 'Nilópolis',
+        state: 'São Paulo',
+        city: 'São Paulo',
         docType: 'Identidade',
-        docNumber: 210527800,
-        expYear: 2025, 
+        docNumber: 485914396,
+        expYear: 2025,
+        photo: hiago,
       },
-      three: {
+      {
         id: 3,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
-        email: 'luan.ramalhosilva@gmail.com',
-        DDD: 21,
-        phoneNumber: 970106538,
-        birthYear: 1991,
-        birthMounth: 8,
-        birthDay: 12,
+        name: 'Matheus',
+        lastName: 'Martiniano do Vale',
+        email: 'coohmatheus123@gmail.com',
+        DDD: 11,
+        phoneNumber: 996320620,
+        birthYear: 1999,
+        birthMounth: 6,
+        birthDay: 17,
         genre: 'Masculino',
         country: 'Brasil',
-        state: 'Rio de Janeiro',
-        city: 'Nilópolis',
+        state: 'São Paulo',
+        city: 'São Paulo',
         docType: 'Identidade',
-        docNumber: 210527800,
-        expYear: 2025, 
+        docNumber: 7130140098,
+        expYear: 2025,
+        photo: matheus,
       },
-      four: {
+      {
         id: 4,
-        name: 'Luan',
-        lastName: 'da Silva Ramalho',
+        name: 'Marcelo',
+        lastName: 'Augusto Moticelli Dias',
+        email: 'mmonticeli690@gmail.com',
+        DDD: 11,
+        phoneNumber: 996932067,
+        birthYear: 1993,
+        birthMounth: 16,
+        birthDay: 6,
+        genre: 'Masculino',
+        country: 'Brasil',
+        state: 'São Paulo',
+        city: 'São Paulo',
+        docType: 'Identidade',
+        docNumber: 488481557,
+        expYear: 2025,
+        photo: marceloAu,
+      },
+      {
+        id: 5,
+        name: 'Martinho',
+        lastName: 'da Vila',
         email: 'luan.ramalhosilva@gmail.com',
         DDD: 21,
         phoneNumber: 970106538,
@@ -307,19 +363,77 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: martinho,
       },
-    }
+      {
+        id: 6,
+        name: 'Martinho',
+        lastName: 'da Vila',
+        email: 'luan.ramalhosilva@gmail.com',
+        DDD: 21,
+        phoneNumber: 970106538,
+        birthYear: 1991,
+        birthMounth: 8,
+        birthDay: 12,
+        genre: 'Masculino',
+        country: 'Brasil',
+        state: 'Rio de Janeiro',
+        city: 'Nilópolis',
+        docType: 'Identidade',
+        docNumber: 210527800,
+        expYear: 2025,
+        photo: martinho,
+      },
+      {
+        id: 7,
+        name: 'Martinho',
+        lastName: 'da Vila',
+        email: 'luan.ramalhosilva@gmail.com',
+        DDD: 21,
+        phoneNumber: 970106538,
+        birthYear: 1991,
+        birthMounth: 8,
+        birthDay: 12,
+        genre: 'Masculino',
+        country: 'Brasil',
+        state: 'Rio de Janeiro',
+        city: 'Nilópolis',
+        docType: 'Identidade',
+        docNumber: 210527800,
+        expYear: 2025,
+        photo: martinho,
+      },
+      {
+        id: 8,
+        name: 'Martinho',
+        lastName: 'da Vila',
+        email: 'luan.ramalhosilva@gmail.com',
+        DDD: 21,
+        phoneNumber: 970106538,
+        birthYear: 1991,
+        birthMounth: 8,
+        birthDay: 12,
+        genre: 'Masculino',
+        country: 'Brasil',
+        state: 'Rio de Janeiro',
+        city: 'Nilópolis',
+        docType: 'Identidade',
+        docNumber: 210527800,
+        expYear: 2025,
+        photo: martinho,
+      },
+    ]
   },
   {
     id: 5,
     name: 'Beth Carvalho',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
         name: 'Fulano',
         lastName: 'da Silva',
-        email: 'fulano@gmailmail.com',
+        email: 'fulano@gmail.com',
         DDD: 21,
         phoneNumber: 970106538,
         birthYear: 1991,
@@ -331,9 +445,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: beth,
       },
-      two: {
+      {
         id: 2,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -349,9 +464,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: beth,
       },
-      three: {
+      {
         id: 3,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -367,9 +483,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: beth,
       },
-      four: {
+      {
         id: 4,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -385,15 +502,16 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: beth,
       },
-    }
+    ]
   },
   {
     id: 6,
     name: 'João Nogueira',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
         name: 'Fulano',
         lastName: 'da Silva',
@@ -409,9 +527,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: joao,
       },
-      two: {
+      {
         id: 2,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -427,9 +546,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: joao,
       },
-      three: {
+      {
         id: 3,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -445,9 +565,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: joao,
       },
-      four: {
+      {
         id: 4,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -463,15 +584,16 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: joao,
       },
-    }
+    ]
   },
   {
     id: 6,
     name: 'Almir Guineto',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
         name: 'Fulano',
         lastName: 'da Silva',
@@ -487,9 +609,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: almir,
       },
-      two: {
+      {
         id: 2,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -505,9 +628,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: almir,
       },
-      three: {
+      {
         id: 3,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -523,9 +647,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: almir,
       },
-      four: {
+      {
         id: 4,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -541,15 +666,16 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: almir,
       },
-    }
+    ]
   },
   {
     id: 6,
     name: 'Cartola',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
         name: 'Fulano',
         lastName: 'da Silva',
@@ -565,9 +691,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: cartola,
       },
-      two: {
+      {
         id: 2,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -583,9 +710,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: cartola,
       },
-      three: {
+      {
         id: 3,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -601,9 +729,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: cartola,
       },
-      four: {
+      {
         id: 4,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -619,15 +748,16 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: cartola,
       },
-    }
+    ]
   },
   {
     id: 6,
     name: 'Paulinho da Viola',
-    guests: {
-      one: {
+    guests: [
+      {
         id: 1,
         name: 'Fulano',
         lastName: 'da Silva',
@@ -643,9 +773,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: paulinho,
       },
-      two: {
+      {
         id: 2,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -661,9 +792,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: paulinho,
       },
-      three: {
+      {
         id: 3,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -679,9 +811,10 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: paulinho,
       },
-      four: {
+      {
         id: 4,
         name: 'Luan',
         lastName: 'da Silva Ramalho',
@@ -697,8 +830,9 @@ export const rooms = [
         city: 'Nilópolis',
         docType: 'Identidade',
         docNumber: 210527800,
-        expYear: 2025, 
+        expYear: 2025,
+        photo: paulinho,
       },
-    }
+    ]
   },
 ]
